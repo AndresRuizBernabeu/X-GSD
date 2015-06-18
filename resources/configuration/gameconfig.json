@@ -1,0 +1,14 @@
+{
+	"windowName" : "Super X-GSD Example Game",
+	"windowSize" : {
+		"width" : 720,
+		"height" : 480
+	},
+	"fullscreen" : false,
+	"vsync" : false,
+	"keyRepetition" : false,
+	"mouseCursorVisible" : false,
+	"debugFont": "PressStart2P.ttf",
+	"icon" : "playerShip.gif",
+	"initialScene" : "TitleScene.json"
+}

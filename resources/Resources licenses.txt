@@ -1,0 +1,6 @@
+The following resources have been created by external people:
+
+playerShip.gif - http://squirrelsquid.deviantart.com/art/bigger-ship-98520159 (Public domain)
+PressStart2P.ttf - See license file in fonts folder (SIL OPEN FONT LICENSE 1.1)
+asteroid-1.png, asteroid-2.png and asteroid-3.png - http://opengameart.org/content/asteroid-0 (CC-BY3.0)
+spaceBG.jpg - Modified version from http://opengameart.org/content/space-skyboxes-0 (CC0 Public Domain)

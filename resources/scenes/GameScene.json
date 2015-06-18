@@ -1,0 +1,108 @@
+{
+	"name": "GameScene",
+	"entities": [
+				 
+				 {
+				 "name": "levelControllersContainer",
+				 "components": {
+				 "controllers": [
+								 {
+								 "type": "GameController"
+								 }
+								 ]
+				 }
+				 },
+				 
+                 {
+                 "name": "player",
+                 "parentEntityName": "root",
+                 
+                 "transform": {
+                 "position":  {
+                 "relative": true,
+                 "x": 0.5,
+                 "y": 0.75
+                 }
+                 },
+                 
+                 "components": {
+                 "ComponentCollider": {
+                 "boundsRect": {
+                 "top": 0,
+                 "left": 0,
+                 "height": 64,
+                 "width": 64
+                 }
+                 },
+                 "ComponentRigidBody": {
+                 "kinematic": false
+                 },
+                 "ComponentSprite": {
+                 "globalTexture": false,
+                 "texture": "playerTexture"
+                 },
+                 "controllers": [
+                                 {
+                                 "type": "PlayerController"
+                                 }
+                                 ]
+                 }
+                 }
+				 
+								 
+				 ],
+	"resources": {
+		"textures": [
+      {
+					 "name": "asteroid1",
+					 "path": "asteroid-1.png"
+      },
+                     {
+                     "name": "asteroid2",
+                     "path": "asteroid-2.png"
+                     },
+                     {
+                     "name": "asteroid3",
+                     "path": "asteroid-3.png"
+                     },
+
+      {
+					 "name": "bulletTexture",
+					 "path": "bullet.png"
+      },
+	  {
+					 "name": "playerTexture",
+					 "path": "playerShip.gif"
+      },
+	  {
+					 "name" : "BGTexture",
+					 "path" : "spaceBG.jpg"
+	  }
+					 
+					 ],
+		"fonts": [
+      {
+				  "name": "mainFont",
+				  "path": "PressStart2P.ttf"
+      }
+				  ],
+		"sounds": [
+				   {
+				   "name": "pauseSound",
+				   "path": "selection.ogg"
+				   },
+				   {
+				   "name": "bulletSound",
+				   "path": "shoot.ogg"
+				   },
+				   {
+				   "name": "explosion",
+				   "path": "explosion.ogg"
+				   },
+				   {
+				   "name": "melody",
+				   "path": "gameMusic.ogg"
+				   }
+				   ]
+	}
+}

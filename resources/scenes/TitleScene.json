@@ -1,0 +1,61 @@
+{
+    "name": "TitleScene",
+    "entities": [
+                 {
+                 "name": "levelControllersContainer",
+                 "components": {
+                 "controllers": [
+                                 {
+                                 "type": "TitleController"
+                                 }
+                                 ]
+                 }
+                 },
+                 {
+                 "name": "logo",
+                 "parentEntityName": "root",
+                 "transform": {
+                 "origin": {
+                 "x": 128,
+                 "y": 64
+                 },
+                 "position": {
+                 "relative": true,
+                 "x": 0.5,
+                 "y": 0.5
+                 },
+                 "scale": {
+                 "x": 2,
+                 "y": 2
+                 }
+                 },
+                 "components": {
+                 "ComponentSprite": {
+                 "globalTexture": false,
+                 "texture": "titleLogoTexture"
+                 },
+                 "controllers": []
+                 }
+                 }
+                 ],
+    "resources": {
+        "textures": [
+                     {
+                     "name": "titleLogoTexture",
+                     "path": "logoSprite.png"
+                     }
+                     ],
+        "fonts": [
+                  {
+                  "name": "mainFont",
+                  "path": "PressStart2P.ttf"
+                  }
+                  ],
+        "sounds": [
+                   {
+                   "name": "selectionSound",
+                   "path": "selection.ogg"
+                   }
+        ]
+    }
+}
