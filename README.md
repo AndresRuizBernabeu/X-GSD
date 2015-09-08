@@ -5,4 +5,4 @@ X-GSD is a basic data-driven C++ game engine built upon SFML, developed as part 
 The purpose of this end-of-degree project report is to explain some general concepts about video game programming, game engines and their utility, and how X-GSD is built around some of these ideas, including: types of game loop and simulation, resource management, scene graph, entity-component system, events and basic physics.
 
 
-To start with, here you can see my [end-of-degree project report](https://github.com/AndresRuizBernabeu/X-GSD/blob/master/TFG_AndrésRuiz.pdf) in which I explan each part of X-GSD, from how I built it to how to use it.
+To start with, I recommend to read my [end-of-degree project report](https://github.com/AndresRuizBernabeu/X-GSD/blob/master/TFG_AndrésRuiz.pdf) in which I explain how each part of X-GSD is built and a mini game example.
